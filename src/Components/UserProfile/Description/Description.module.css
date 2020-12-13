@@ -1,0 +1,36 @@
+.description {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.name {
+  font-size: 19px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #122236;
+}
+
+.tag {
+  margin: 0;
+  font-size: 15px;
+  color: #768696;
+}
+
+.location {
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: #768696;
+}

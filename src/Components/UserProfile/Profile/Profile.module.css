@@ -1,0 +1,9 @@
+.profile {
+  width: 250px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid #e4e9f0;
+  margin: 0 auto;
+}

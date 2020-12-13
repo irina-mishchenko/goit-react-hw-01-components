@@ -1,0 +1,19 @@
+.list {
+  width: 430px;
+  height: 630px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid darkgray;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  width: 400px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
