@@ -1,3 +1,5 @@
+import propTypes from 'prop-types';
+
 import Description from './../Description/Description';
 import Stats from './../Stats/Stats';
 
@@ -16,5 +18,15 @@ function Profile({ items }) {
     </div>
   );
 }
+
+Profile.propTypes = {
+  items: propTypes.exact({
+    name: propTypes.string,
+    tag: propTypes.string,
+    location: propTypes.string,
+    avatar: propTypes.string,
+    stats: propTypes.objectOf(propTypes.number),
+  }),
+};
 
 export default Profile;
